@@ -9,9 +9,9 @@
   "// Optional": "",
   "content_scripts": [
     {
-      "matches": ["https://*.google.com/*"],
+      "matches": ["https://www.google.com/*", "https://www.google.co.jp/*"],
       "run_at": "document_idle",
-      "js": ["scripts/contentScripts.js"]
+      "js": ["scripts/contentScriptsForGoogle.js"]
     }
   ],
   "options_ui": {
