@@ -1,0 +1,20 @@
+{
+  "name": "search-helper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "yarn build --watch",
+    "zip": "zip -r dist.zip dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmochi/chrome-extensions.git"
+  },
+  "author": "rmochi",
+  "license": "MIT",
+  "homepage": "https://github.com/rmochi/chrome-extensions#readme",
+  "dependencies": {
+    "@chrome-extensions/search-result-filter": "1.0.0"
+  }
+}

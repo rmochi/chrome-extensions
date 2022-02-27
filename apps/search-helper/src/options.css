@@ -1,0 +1,24 @@
+body {
+  font-size: 14px;
+}
+
+.searchFilterItem {
+  display: flex;
+  align-items: center;
+}
+
+.searchFilterItem:not(:first-child) {
+  margin-top: 5px;
+}
+
+.searchFilterItem .deleteButton {
+  order: -1;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.searchFilterClearButton {
+  cursor: pointer;
+}

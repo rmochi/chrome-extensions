@@ -1,0 +1,14 @@
+{
+  "name": "@chrome-extensions/search-result-filter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmochi/chrome-extensions.git"
+  },
+  "author": "rmochi",
+  "license": "MIT",
+  "homepage": "https://github.com/rmochi/chrome-extensions#readme",
+  "main": "./src/index.ts"
+}

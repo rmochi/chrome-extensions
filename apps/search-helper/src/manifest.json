@@ -1,0 +1,22 @@
+{
+  "// Required": "",
+  "manifest_version": 3,
+  "name": "search-helper",
+  "version": "1.0.0",
+
+  "// Recommended": "",
+
+  "// Optional": "",
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/*"],
+      "run_at": "document_idle",
+      "js": ["scripts/contentScripts.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "permissions": ["storage"]
+}
