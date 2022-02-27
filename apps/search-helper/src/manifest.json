@@ -12,6 +12,11 @@
       "matches": ["https://www.google.com/*", "https://www.google.co.jp/*"],
       "run_at": "document_idle",
       "js": ["scripts/contentScriptsForGoogle.js"]
+    },
+    {
+      "matches": ["https://search.yahoo.co.jp/*"],
+      "run_at": "document_idle",
+      "js": ["scripts/contentScriptsForYahooJapan.js"]
     }
   ],
   "options_ui": {
